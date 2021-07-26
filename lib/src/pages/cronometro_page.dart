@@ -313,7 +313,7 @@ class _CronometroPageState extends State <CronometroPage>{
                       SizedBox(width: 20.0),
                     ],
                   ),
-                  SizedBox(height: 50.0),
+                  SizedBox(height: 10.0),
                   ConstrainedBox(constraints: BoxConstraints.tightFor(width: 150,height:50),
                   child: ElevatedButton(
                     child: Text(mainBtnText,
@@ -328,7 +328,7 @@ class _CronometroPageState extends State <CronometroPage>{
                     )
                   ),
                   ),
-                  SizedBox(height: 20.0),
+                  SizedBox(height: 10.0),
                   ConstrainedBox(constraints: BoxConstraints.tightFor(width: 150,height:50),
                   child: ElevatedButton(
                     child: Text(_btnTextReset,
@@ -430,7 +430,7 @@ class _CronometroPageState extends State <CronometroPage>{
                     setTimeStudy(totalTimeM),
                   },
                   setState(() {
-                    remainingTime=remainingTime-1;
+                    remainingTime=remainingTime-60;
                     mainBtnText = _btnTextPause;
                   })
                 }

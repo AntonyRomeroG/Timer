@@ -56,7 +56,11 @@ class CustomTheme with ChangeNotifier {
       iconTheme: IconThemeData(
         color: Colors.white,
       ),
-      
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          primary: Colors.black,
+        )
+      ),
     );
   }
 }
