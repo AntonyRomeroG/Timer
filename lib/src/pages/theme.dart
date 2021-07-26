@@ -13,8 +13,8 @@ class CustomTheme with ChangeNotifier {
 
   static ThemeData get lightTheme {
     return ThemeData(
-      primarySwatch: Colors.red,
-      primaryColor: Colors.blueAccent[400],
+      primarySwatch: Colors.blue,
+      primaryColor: Colors.blue,
       //brightness: Brightness.dark,
       //backgroundColor: Colors.black,
       scaffoldBackgroundColor: Colors.blueAccent[100],
