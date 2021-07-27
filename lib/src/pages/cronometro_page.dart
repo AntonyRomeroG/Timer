@@ -430,7 +430,7 @@ class _CronometroPageState extends State <CronometroPage>{
                     setTimeStudy(totalTimeM),
                   },
                   setState(() {
-                    remainingTime=remainingTime-60;
+                    remainingTime=remainingTime-1;
                     mainBtnText = _btnTextPause;
                   })
                 }
